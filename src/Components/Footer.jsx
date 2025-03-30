@@ -45,7 +45,7 @@ export const Footer = () => {
           <p>Get started for free. Add your whole team as your needs grow.</p>
           <div>
             <button className="bg-blue-400 rounded-lg p-4 px-11">
-              Start Today
+              gay jhon
             </button>
           </div>
         </div>
