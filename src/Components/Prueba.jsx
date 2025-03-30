@@ -2,6 +2,6 @@
 
 export const Prueba = () => {
   return (
-    <div>Prueba</div>
+    <div>plata</div>
   )
 }
