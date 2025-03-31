@@ -1,56 +1,60 @@
+import LOGO from '../assets/images/LOGO.webp'
+import { FaPhone } from "react-icons/fa6";
+import { HiMail } from "react-icons/hi";
+import { FaLocationDot } from "react-icons/fa6";
+
 export const Footer = () => {
   return (
-    <footer className="flex w-full  gap-3 bg-blue-900 p-[5%] px-[10%] text-white">
-      <div className="flex w-full justify-between mt-10">
-        <div className="flex w-[205px] flex-col gap-6">
-          <img src="" alt="" />
-          <p>
-            whitepace was created for the new ways we live and work. We make a
-            better workspace around the world
+    <footer className="bg-[#006b96] text-white">
+      <div className="flex w-full justify-between px-[10%] pt-[3%] pb-[2%]">
+
+        <div className="w-[200px] mt-[-25px]">
+          <img src={LOGO} className='' alt="LOGO" />
+          <p className='pl-4.5'>
+          en este texto podemos escribir un lema o dicho corto que describa la empresa con el objetivo de dar un mensaje comercial sobre nosotros 
           </p>
         </div>
 
-        <div className="flex w-[205px] flex-col gap-4">
-          <h2 className="text-lg font-bold">Services</h2>
+        <div className="flex w-auto flex-col gap-4">
+          <h2 className="letra text-xl">Acerca de</h2>
           <div className="flex flex-col gap-3">
-            <p>Hola</p>
-            <p>Soy</p>
-            <p>Timido</p>
-            <p>Demasiado Timido</p>
+            <li>Servicios</li>
+            <li>Productos</li>
+            <li>Nosotros</li>
           </div>
         </div>
 
-        <div className="flex w-[205px] flex-col gap-4">
-          <h2 className="text-lg font-bold">Resources</h2>
+        <div className="flex w-auto flex-col gap-4">
+          <h2 className="letra text-xl">Contáctanos</h2>
           <div className="flex flex-col gap-3">
-            <p>Hola</p>
-            <p>Soy</p>
-            <p>Timido</p>
-            <p>Demasiado Timido</p>
+            <p className='flex items-center gap-2'>
+              <FaPhone />
+              <span>(+57 ) 123 456 7890</span>
+            </p>
+            <p className='flex items-center gap-2'>
+              <HiMail />
+              <span>Dquimcadeloriente@example.com</span>
+            </p>
           </div>
         </div>
 
-        <div className="flex w-[205px] flex-col gap-4">
-          <h2 className="text-lg font-bold">Company</h2>
+        <div className="flex w-aunto flex-col gap-4">
+          <h2 className="letra text-xl">Encuentranos</h2>
           <div className="flex flex-col gap-3">
-            <p>Hola</p>
-            <p>Soy</p>
-            <p>Timido</p>
-            <p>Demasiado Timido</p>
-          </div>
-        </div>
-
-        <div className="flex w-[205px] flex-col gap-4">
-          <h1 className="text-2xl font-bold">Try it Today</h1>
-          <p>Get started for free. Add your whole team as your needs grow.</p>
-          <div>
-            <button className="bg-blue-400 rounded-lg p-4 px-11">
-              gay jhon
-            </button>
+            <p className='flex items-center gap-2'>
+              <FaLocationDot />
+              <span>Calle X # X-X</span>
+            </p>
+            <p>Bucaramanga, Santander-Colombia</p>
           </div>
         </div>
       </div>
-      <div></div>
+
+      <hr />
+
+      <div className='px-[15%] pt-[0.5%] flex justify-center'>
+        <p className='text-xs'>Distribución quimica del oriente S.A.S ©<span className='text-base'> l </span>Todos los derechos reservados 2025</p>
+      </div>
     </footer>
   );
 };
