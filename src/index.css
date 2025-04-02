@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
-.letra{
+    .letra-1{
     font-family: "Oswald", serif;
-}
+    }
+    .letra-2{
+        font-family: "Rubik", sans-serif;
+    }
