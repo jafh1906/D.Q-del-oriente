@@ -1,7 +1,7 @@
 export const Hero = () => {
   return (
-    <section className="flex m-auto min-h-screen w-full justify-around mt-10">
-      <div className="flex justify-between container mx-auto  gap-10">
+    <section className="flex items-center max-w-[1440px] mx-auto px-10 mt-10">
+      <div className="flex justify-between gap-10">
         <div className="flex flex-col gap-3">
           <h1 className="text-4xl">
             Want anything to be <br /> easy with{" "}

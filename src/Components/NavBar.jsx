@@ -2,8 +2,8 @@ import LOGO from "../assets/images/LOGO.webp";
 
 export const NavBar = () => {
   return (
-    <header className="letra-2 m-auto bg-cover bg-center bg-no-repeat bg-[url(./assets/images/bgNavBar2.png)] ">
-      <div className="flex items-center justify-between px-10">
+    <header className="letra-2  bg-cover bg-center . bg-[url(./assets/images/bgNavBar2.png)]">
+      <div className="flex items-center justify-between max-w-[1440px] mx-auto px-5">
         <div className="w-[200px]">
           <img src={LOGO} alt="logo" />
         </div>
