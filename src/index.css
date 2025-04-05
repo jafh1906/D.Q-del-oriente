@@ -3,7 +3,16 @@
     .letra-1{
     font-family: "Oswald", serif;
     }
+
     .letra-2{
         font-family: "Rubik", sans-serif;
+    }
+
+    .letra-3{
+        font-family: "DM Sans", sans-serif;
+    }
+
+    .navBar{
+        box-shadow: 0px 3px 15px
     }
 
