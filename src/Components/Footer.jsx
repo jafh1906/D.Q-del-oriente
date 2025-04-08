@@ -5,7 +5,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 export const Footer = () => {
   return (
-    <footer className="letra-2 bg-[#006b96]  text-white">
+    <footer className="letra-2 bg-[#006b96] text-white">
       <div className="flex w-full justify-between max-w-[1440px] mx-auto px-[10%] pt-[3%] pb-[2%]">
 
         <div className="w-[210px] mt-[-25px]">
