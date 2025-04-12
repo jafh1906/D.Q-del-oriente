@@ -1,59 +1,94 @@
-import LOGO from '../assets/images/LOGO.webp'
-import { FaPhone } from "react-icons/fa6";
-import { HiMail } from "react-icons/hi";
+import LOGO from "../assets/images/LOGO.webp";
+import { FiPhone } from "react-icons/fi";
+import { FiMail } from "react-icons/fi";
 import { FaLocationDot } from "react-icons/fa6";
 
 export const Footer = () => {
   return (
-    <footer className="letra-2 bg-[#006b96] text-white">
-      <div className="flex w-full justify-between max-w-[1440px] mx-auto px-[10%] pt-[3%] pb-[2%]">
+    <footer className="letra-2 bg-gray-50">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-12">
+          <div className="lg:col-span-4">
+            <div className="w-[210px] mt-[-25px]">
+              <img src={LOGO} className="" alt="LOGO" />
+            </div>
+            <p className="pl-4.5 text-gray-600">
+              The copy warned the Little Blind Text, that where it came from it
+              would have been rewritten a thousand times.
+            </p>
+          </div>
 
-        <div className="w-[210px] mt-[-25px]">
-          <img src={LOGO} className='' alt="LOGO" />
-          <p className='pl-4.5'>
-          en este texto podemos escribir un lema o dicho corto que describa la empresa con el objetivo de dar un mensaje comercial sobre nosotros 
-          </p>
-        </div>
+          <div className="lg:col-span-8">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
+              <div>
+                <h3 className="text-lg font-medium mb-4 uppercase">
+                  Sobre nosotros
+                </h3>
+                <ul className="space-y-3">
+                  <li>
+                    <a href="#" className="text-gray-600 hover:text-gray-900">
+                      Servicios
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="text-gray-600 hover:text-gray-900">
+                      Productos
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" className="text-gray-600 hover:text-gray-900">
+                      Nosotros
+                    </a>
+                  </li>
+                </ul>
+              </div>
 
-        <div className="flex w-auto flex-col gap-4">
-          <h2 className="letra-1 text-xl">Acerca de</h2>
-          <div className="flex flex-col gap-3">
-            <li>Servicios</li>
-            <li>Productos</li>
-            <li>Nosotros</li>
+              <div>
+                <h3 className="text-lg font-medium mb-4 uppercase">
+                  Contáctanos
+                </h3>
+                <ul className="space-y-3 text-gray-600">
+                  <li className="flex items-center gap-2">
+                    <FiPhone />
+                    <span>(+57) 123 456 7890</span>
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <FiMail />
+                    <span>Dquimcadeloriente@example.com</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <h3 className="text-lg font-medium mb-4 uppercase">
+                  Encuéntranos
+                </h3>
+                <ul className="space-y-3 text-gray-600">
+                  <li>
+                    <div className="flex items-start gap-2">
+                      <FaLocationDot className="mt-1" />
+                      <div>
+                        <p>Calle X # X-X</p>
+                        <p>Bucaramanga, Santander-Colombia</p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div className="flex w-auto flex-col gap-4">
-          <h2 className="letra-1 text-xl">Contáctanos</h2>
-          <div className="flex flex-col gap-3">
-            <p className='flex items-center gap-2'>
-              <FaPhone />
-              <span>(+57 ) 123 456 7890</span>
+        <div className="border-t border-gray-200 mt-12 pt-8">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+            <p className="text-gray-600 text-sm">
+              Distribución quimica del oriente S.A.S ©
             </p>
-            <p className='flex items-center gap-2'>
-              <HiMail />
-              <span>Dquimcadeloriente@example.com</span>
+            <p className="text-gray-600 text-sm">
+              Todos los derechos reservados {new Date().getFullYear()}
             </p>
           </div>
         </div>
-
-        <div className="flex w-aunto flex-col gap-4">
-          <h2 className="letra-1 text-xl">Encuentranos</h2>
-          <div className="flex flex-col gap-3">
-            <p className='flex items-center gap-2'>
-              <FaLocationDot />
-              <span>Calle X # X-X</span>
-            </p>
-            <p>Bucaramanga, Santander-Colombia</p>
-          </div>
-        </div>
-      </div>
-
-      <hr />
-
-      <div className='px-[15%] pt-[0.5%] flex justify-center'>
-        <p className='text-xs'>Distribución quimica del oriente S.A.S ©<span className='text-base'> l </span>Todos los derechos reservados 2025</p>
       </div>
     </footer>
   );
