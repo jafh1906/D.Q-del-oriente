@@ -1,6 +1,6 @@
 export const Nosotros = () => {
   return (
-    <section className="container flex flex-col justify-center space-y-8 py-16 sm:px-6 lg:px-8 letra-2">
+    <section className="container mx-auto flex flex-col justify-center space-y-8 py-16 sm:px-6 lg:px-8 letra-2">
       {/* Header */}
       <h2 className="text-cyan-500 font-medium mb-4 text-3xl">QUIENES SOMOS</h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -20,16 +20,12 @@ export const Nosotros = () => {
         </div>
       </div>
 
-      {/* Vision and Goal Cards */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-        {/* Vision Card */}
         <div className="relative rounded-lg overflow-hidden shadow-lg h-80">
           <img
             src="./src/assets/images/imgVision.webp"
             alt="Vision image showing architectural models"
-            fill
             className="object-cover"
-            priority
           />
           <div className="absolute inset-0 flex items-end justify-center">
             <div className="bg-white shadow p-6 w-5/6 rounded-2xl mb-5">
@@ -47,9 +43,7 @@ export const Nosotros = () => {
           <img
             src="./src/assets/images/imgMision.webp"
             alt="Goal image showing team collaboration"
-            fill
             className="object-cover"
-            priority
           />
           <div className="absolute inset-0 flex items-end justify-center">
             <div className="bg-white shadow p-6 w-5/6 rounded-2xl mb-5">

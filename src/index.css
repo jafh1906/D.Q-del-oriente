@@ -1,26 +1,57 @@
 @import "tailwindcss";
 
-    .letra-1{
-    font-family: "Oswald", serif;
-    }
+.letra-1 {
+  font-family: "Oswald", serif;
+}
 
-    .letra-2{
-        font-family: "Rubik", sans-serif;
-    }
+.letra-2 {
+  font-family: "Rubik", sans-serif;
+}
 
-    .letra-3{
-        font-family: "DM Sans", sans-serif;
-    }
+.letra-3 {
+  font-family: "DM Sans", sans-serif;
+}
 
-    .navBar{
-        box-shadow: 0px 1px 5px
-    }
+.navBar {
+  box-shadow: 0px 1px 5px;
+}
 
-    .imgMision{
-        /* box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); */
-        box-shadow: 0px 1px 5px
-    }
+.imgMision {
+  /* box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); */
+  box-shadow: 0px 1px 5px;
+}
 
-    .descriptionCInfo{
-        box-shadow: 0px 1px 5px black
-    }
+.descriptionCInfo {
+  box-shadow: 0px 1px 5px black;
+}
+
+.products-swiper {
+  max-width: 100%;
+  padding: 20px 0;
+  overflow: visible;
+}
+
+.products-swiper .swiper-wrapper {
+  overflow: visible !important;
+}
+
+.products-swiper .swiper-slide {
+  height: auto;
+  overflow: visible;
+}
+
+.products-swiper .swiper-button-next::after,
+.products-swiper .swiper-button-prev::after {
+  display: none;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: none;
+}
+
+.swiper-button-next-custom.swiper-button-disabled,
+.swiper-button-prev-custom.swiper-button-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
