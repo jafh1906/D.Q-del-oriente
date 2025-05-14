@@ -8,23 +8,21 @@ export const Hero = () => {
           <span className="text-cyan-500 group-hover:text-amber-300 group-hover:scale-110 transition-transform">
             ★
           </span>
-          <span className="text-sm font-medium">Soy timidin el timido</span>
+          <span className="text-sm font-medium">Tu mejor opcion</span>
         </div>
 
         <h1 className="text-4xl md:text-4xl lg:text-5xl font-bold leading-tight">
-          Soy timido el timido
+          Confía en los especialistas
           <span className="text-cyan-500 relative inline-block">
-            Timidin el timido hola
-            <span className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-200/60"></span>
+            productos y servicios de
+            {/* <span className="absolute bottom-0 left-0 w-full h-0.5 bg-blue-200/60"></span> */}
           </span>
-          <br />
-          Timidos
-          <span className="inline-block ml-2 animate-pulse">⏰</span>
+          <span>calidad</span>
+          <span className="inline-block ml-2 animate-pulse">💧</span>
         </h1>
 
         <p className="text-gray-600 text-lg md:text-xl max-w-xl">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
-          repellendus eveniet magnam
+          Ofrecemos soluciones en purificación de agua y mantenimiento de piscinas, garantizando calidad, confianza y bienestar.
         </p>
       </div>
 

@@ -1,6 +1,5 @@
 import { Products } from "../consts/Products";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";

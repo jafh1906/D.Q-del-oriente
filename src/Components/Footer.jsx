@@ -13,8 +13,7 @@ export const Footer = () => {
               <img src={LOGO} className="" alt="LOGO" />
             </div>
             <p className="pl-4.5 text-gray-600">
-              The copy warned the Little Blind Text, that where it came from it
-              would have been rewritten a thousand times.
+              Cuidamos tu salud y bienestar con agua pura y piscinas impecables, brindando servicio confiable, profesional y de alta calidad siempre.
             </p>
           </div>
 
@@ -47,14 +46,20 @@ export const Footer = () => {
                 <h3 className="text-lg font-medium mb-4 uppercase">
                   Contáctanos
                 </h3>
-                <ul className="space-y-3 text-gray-600">
-                  <li className="flex items-center gap-2">
-                    <FiPhone />
-                    <span>(+57) 123 456 7890</span>
+                <ul className="space-y-3  text-gray-600">
+                  <li className="flex flex-col gap-2">
+                    <div className="flex items-center gap-2">
+                      <FiPhone />
+                      <span>(+57) 316 438 3162</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <FiPhone />
+                      <span>(+57) 300 682 3770</span>
+                    </div>
                   </li>
                   <li className="flex items-center gap-2">
                     <FiMail />
-                    <span>Dquimcadeloriente@example.com</span>
+                    <span>piscinasraul@hotmail.com</span>
                   </li>
                 </ul>
               </div>
@@ -68,7 +73,7 @@ export const Footer = () => {
                     <div className="flex items-start gap-2">
                       <FaLocationDot className="mt-1" />
                       <div>
-                        <p>Calle X # X-X</p>
+                        <p>Calle 104c # 11D-19 local-1</p>
                         <p>Bucaramanga, Santander-Colombia</p>
                       </div>
                     </div>

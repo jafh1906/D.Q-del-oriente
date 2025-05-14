@@ -12,7 +12,7 @@ export const Mision = () => {
                 </h1>
                 <span className='bg-[#006b96] h-[3px] w-full my-5'></span>
                 <p className='letra-3 w-[520px] text-justify'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sunt quis corrupti sequi rerum ratione saepe doloribus at eaque? Eos necessitatibus deleniti id molestiae saepe excepturi. Quod minus sapiente culpa odit unde provident, nulla, deserunt ratione animi nam, possimus dicta nisi eos facere non vitae id praesentium aperiam. Numquam, odio!
+                    Distribución Química del Oriente tiene como misión la satisfacción oportuna y responsable a las necesidades del cliente, suministrando productos de optima calidad, garantizando su eficiencia para mantener el liderazgo en servicio.
                 </p>
             </div>
             <div className='imgMision rounded-4xl'>

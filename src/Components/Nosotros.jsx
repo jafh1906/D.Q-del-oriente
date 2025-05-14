@@ -6,16 +6,12 @@ export const Nosotros = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div>
           <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-6">
-            Making Life Smoother and Easier Every Day
+            Somos tu mejor opcion para el tratamiento de agua
           </h1>
         </div>
         <div>
           <p className="text-gray-600 leading-relaxed">
-            We are dedicated to making life smoother and easier every day with
-            practical and user-friendly solutions. Our focus is on simplifying
-            your daily routines and enhancing your overall convenience.
-            Experience seamless solutions designed to fit effortlessly into your
-            lifestyle.
+            Distribución Química del Oriente es una empresa fundada en el año 2014 en la ciudad de Bucaramanga, Colombia. apasionada por brindar sus servicios con responsabilidad para dar soluciones en el tratamiento de aguas (piscinas, residencial e industrial) con diseño e instalación del sistema para montaje de equipos como, electrobombas, filtros, accesorios, entre otros que permitan el optimo desempeño para la calidad del agua.
           </p>
         </div>
       </div>
@@ -31,8 +27,7 @@ export const Nosotros = () => {
             <div className="bg-white shadow p-6 w-5/6 rounded-2xl mb-5">
               <h3 className="text-xl font-bold text-gray-900 mb-2">Vision</h3>
               <p className="text-gray-600">
-                To be the leading innovator, transforming industries with
-                cutting-edge solutions that improve lives.
+                Ser el mejor lider en la region por la responsabilidad en el servicio y suministro para el tratamiento de agua en diferentes sectores: piscinas, residencial e industrial, mejorando los procesos para ajustarnos a las exigencias cambiantes de los clientes.
               </p>
             </div>
           </div>
@@ -49,8 +44,7 @@ export const Nosotros = () => {
             <div className="bg-white shadow p-6 w-5/6 rounded-2xl mb-5">
               <h3 className="text-xl font-bold text-gray-900 mb-2">Mision</h3>
               <p className="text-gray-600">
-                To consistently deliver exceptional value and achieve excellence
-                in every project we undertake.
+                Distribución Química del Oriente tiene como misión la satisfacción oportuna y responsable a las necesidades del cliente, suministrando productos de optima calidad, garantizando su eficiencia para mantener el liderazgo en servicio.
               </p>
             </div>
           </div>
