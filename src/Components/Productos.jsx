@@ -11,9 +11,9 @@ export const Productos = () => {
     <section className="w-full md:container mx-auto px-4 py-8">
       <div className="text-center mb-8">
         <h2 className="text-3xl font-bold md:text-4xl mb-4">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Conoce nuestra amplia gama de productos.
         </h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>La mejor calidad y al mejor precio</p>
       </div>
 
       <div className="relative overflow-visible z-0">

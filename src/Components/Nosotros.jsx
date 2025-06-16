@@ -1,7 +1,9 @@
 export const Nosotros = () => {
   return (
     <section className="container mx-auto flex flex-col justify-center space-y-8 py-16 sm:px-6 lg:px-8 letra-2">
+
       {/* Header */}
+      
       <h2 className="text-cyan-500 font-medium mb-4 text-3xl">QUIENES SOMOS</h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div>
@@ -15,6 +17,8 @@ export const Nosotros = () => {
           </p>
         </div>
       </div>
+
+      {/* Goal Card */}
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div className="relative rounded-lg overflow-hidden shadow-lg h-80">
@@ -33,7 +37,6 @@ export const Nosotros = () => {
           </div>
         </div>
 
-        {/* Goal Card */}
         <div className="relative rounded-lg overflow-hidden shadow-lg h-80">
           <img
             src="./src/assets/images/imgMision.webp"
