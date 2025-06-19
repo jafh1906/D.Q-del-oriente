@@ -2,7 +2,10 @@ import { Services } from "../consts/Services";
 
 export const Servicios = () => {
   return (
-    <section className="container py-8 mx-auto px-4 sm:px-6 lg:px-8 ">
+    <section
+      id="servicios"
+      className="container scroll-mt-20 md:scroll-mt-24 py-8 mx-auto px-4 sm:px-6 lg:px-8 "
+    >
       <div className="flex flex-col md:flex-row items-center justify-between gap-12 lg:gap-24">
         <div className="md:w-1/2 w-full">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 md:w-4/5">

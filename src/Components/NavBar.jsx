@@ -1,18 +1,42 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import LOGO from "../assets/images/LOGO.webp";
 import { FiMenu } from "react-icons/fi";
 import { FiX } from "react-icons/fi";
 
 export const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [activeLink, setActiveLink] = useState("#home");
+  const [activeLink, setActiveLink] = useState("#inicio");
 
   const navLinks = [
-    { href: "#home", label: "Inicio" },
-    { href: "#products", label: "Productos" },
-    { href: "#services", label: "Servicios" },
-    { href: "#aboutus", label: "Nosotros" },
+    { href: "#inicio", label: "Inicio" },
+    { href: "#productos", label: "Productos" },
+    { href: "#servicios", label: "Servicios" },
+    { href: "#nosotros", label: "Nosotros" },
   ];
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const offset = 100;
+      let currentSection = "#inicio";
+
+      navLinks.forEach((link) => {
+        const section = document.querySelector(link.href);
+        if (section) {
+          const top = section.getBoundingClientRect().top;
+          if (top <= offset) {
+            currentSection = link.href;
+          }
+        }
+      });
+
+      setActiveLink(currentSection);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    handleScroll();
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <header>
