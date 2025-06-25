@@ -4,7 +4,7 @@ export const Hero = () => {
   return (
     <section
       id="inicio"
-      className="container mx-auto flex flex-col md:flex-row justify-between items-center pt-30 pb-6 px-4 sm:px-6 lg:px-8 mb-20"
+      className="letra-2 container mx-auto flex flex-col md:flex-row justify-between items-center pt-30 pb-6 px-4 sm:px-6 lg:px-8 mb-20"
     >
       <div className="w-full md:w-1/2 space-y-8">
         <div className="flex items-center justify-center gap-2 bg-gray-50 w-fit px-4 py-2 rounded-full hover:bg-gray-100 transition-colors cursor-pointer group">
