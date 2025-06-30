@@ -39,6 +39,7 @@ export const ProductCarousel = ({ Products, Accessories, id }) => {
             className="h-full md:py-12 py-4 z-0"
             style={{ overflow: "visible" }}
           >
+
             
             <div className="relative text-center bg-white p-4 rounded-lg inset-shadow-md shadow-md h-full flex flex-col hover:shadow-xs transition-all duration-300 hover:scale-105">
               <div className="w-30 h-30 mx-auto mb-2">
