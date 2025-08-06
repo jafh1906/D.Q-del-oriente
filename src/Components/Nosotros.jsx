@@ -1,3 +1,7 @@
+import imgMision from '../assets/images/imgMision.webp'
+import imgVision from '../assets/images/imgVision.webp'
+
+
 export const Nosotros = () => {
   return (
     <section
@@ -31,7 +35,7 @@ export const Nosotros = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div className="relative rounded-lg overflow-hidden shadow-lg h-80">
           <img
-            src="./src/assets/images/imgVision.webp"
+            src={imgVision}
             alt="Vision image showing architectural models"
             className="object-cover"
           />
@@ -51,7 +55,7 @@ export const Nosotros = () => {
 
         <div className="relative rounded-lg overflow-hidden shadow-lg h-80">
           <img
-            src="./src/assets/images/imgMision.webp"
+            src={imgMision}
             alt="Goal image showing team collaboration"
             className="object-cover"
           />
