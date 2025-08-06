@@ -1,5 +1,5 @@
-import accesorio1 from '../assets/productos/accesorio1.webp';
-import accesorio2 from '../assets/productos/accesorio2.webp';
+import accesorio1 from '../assets/Productos/accesorio1.webp';
+import accesorio2 from '../assets/Productos/accesorio2.webp';
 
 export const Accessories = [
   {

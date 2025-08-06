@@ -1,5 +1,5 @@
-import producto1 from '../assets/productos/producto1.webp';
-import producto2 from '../assets/productos/producto2.webp';
+import producto1 from '../assets/Productos/producto1.webp';
+import producto2 from '../assets/Productos/producto2.webp';
 
 export const Products = [
   {
