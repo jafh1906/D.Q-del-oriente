@@ -55,3 +55,7 @@
   opacity: 0.5;
   cursor: not-allowed;
 }
+
+html {
+  scroll-behavior: smooth;
+}
