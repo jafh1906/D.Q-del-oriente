@@ -1,5 +1,6 @@
 import { Footer } from "../Components/Footer";
 import { NavBar } from "../Components/NavBar";
+import { Wsp } from "../Components/Wsp";
 
 export const LayoutApp = ({ children }) => {
   return (
@@ -7,6 +8,7 @@ export const LayoutApp = ({ children }) => {
       <div className="absolute -top-28 -left-28 w-[500px] h-[500px] bg-gradient-to-tr from-blue-600/20 to-cyan-300/20 rounded-full blur-[80px] -z-10"></div>
       <NavBar />
       <main className="flex flex-col">{children}</main>
+      <Wsp />
       <Footer />
     </section>
   );
