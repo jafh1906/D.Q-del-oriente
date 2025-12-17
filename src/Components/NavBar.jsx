@@ -80,29 +80,31 @@ export const NavBar = () => {
           </div>
         </div>
 
-        {isMenuOpen && (
-          <div className="md:hidden bg-white border-t border-gray-100 py-4">
-            <div className="container mx-auto px-4 space-y-4">
-              {navLinks.map((link, index) => (
-                <a
-                  key={index}
-                  href={link.href}
-                  onClick={() => {
-                    setActiveLink(link.href);
-                    setIsMenuOpen(false);
-                  }}
-                  className={`block text-sm font-medium py-2 ${
-                    activeLink === link.href
-                      ? "text-cyan-500"
-                      : "text-gray-900 "
-                  }`}
-                >
-                  {link.label}
-                </a>
-              ))}
-            </div>
+        <div
+          className={`absolute top-16 left-0 w-full bg-white border-t border-gray-100 transform transition-all duration-500 ease-in-out md:hidden ${
+            isMenuOpen
+              ? "translate-y-0 opacity-100"
+              : "-translate-y-5 opacity-0 pointer-events-none"
+          }`}
+        >
+          <div className="container mx-auto px-4 py-4 space-y-4">
+            {navLinks.map((link, index) => (
+              <a
+                key={index}
+                href={link.href}
+                onClick={() => {
+                  setActiveLink(link.href);
+                  setIsMenuOpen(false);
+                }}
+                className={`block text-sm font-medium py-2 ${
+                  activeLink === link.href ? "text-cyan-500" : "text-gray-900 "
+                }`}
+              >
+                {link.label}
+              </a>
+            ))}
           </div>
-        )}
+        </div>
       </nav>
     </header>
   );

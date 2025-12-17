@@ -6,7 +6,7 @@ export const Nosotros = () => {
   return (
     <section
       id="nosotros"
-      className="letra-2 container px-2 scroll-mt-10 md:scroll-mt-14 mx-auto flex flex-col justify-center space-y-8 py-16 sm:px-6 lg:px-8"
+      className="letra-2 container px-4 scroll-mt-10 md:scroll-mt-14 mx-auto flex flex-col justify-center space-y-8 py-16 sm:px-6 lg:px-8"
     >
       {/* Header */}
 
