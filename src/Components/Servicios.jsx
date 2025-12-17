@@ -41,7 +41,7 @@ export const Servicios = () => {
             </div>
           </div>
 
-          <button className="mt-8 bg-cyan-400 text-white px-8 py-3 cursor-pointer rounded-full hover:bg-cyan-500 transition-colors"
+          <button className="mt-8 bg-cyan-400 text-white px-8 py-3 cursor-pointer rounded-full hover:bg-cyan-500 transition-colors font-medium"
             onClick={() => {
               const message = `Hola, quiero información sobre sus servicios`;
               window.open(
