@@ -3,6 +3,7 @@ import { Productos } from "../Components/Productos";
 import { Nosotros } from "../Components/Nosotros";
 import { Servicios } from "../Components/Servicios";
 import { LayoutApp } from "../Layouts/LayoutApp";
+// import { Wsp } from "../Components/Wsp";
 
 export const Home = () => {
   return (
@@ -11,6 +12,7 @@ export const Home = () => {
       <Productos />
       <Servicios />
       <Nosotros />
+      {/* <Wsp /> */}
     </LayoutApp>
   );
 };

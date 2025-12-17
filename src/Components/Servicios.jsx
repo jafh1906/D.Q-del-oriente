@@ -19,18 +19,38 @@ export const Servicios = () => {
               <div className="w-5 h-5 rounded-full bg-cyan-100 flex items-center justify-center">
                 <div className="w-2.5 h-2.5 rounded-full bg-cyan-300"></div>
               </div>
-              <span className="text-gray-600">Purificacion de aguas</span>
+              <span className="text-gray-600">Mantenimiento de piscinas y sus componentes</span>
             </div>
             <div className="flex items-center gap-2">
               <div className="w-5 h-5 rounded-full bg-cyan-100 flex items-center justify-center">
                 <div className="w-2.5 h-2.5 rounded-full bg-cyan-300"></div>
               </div>
-              <span className="text-gray-600">Mantenimiento de piscinas y sus componentes</span>
+              <span className="text-gray-600">Purificación de aguas</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <div className="w-5 h-5 rounded-full bg-cyan-100 flex items-center justify-center">
+                <div className="w-2.5 h-2.5 rounded-full bg-cyan-300"></div>
+              </div>
+              <span className="text-gray-600">Instalación de Componentes</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <div className="w-5 h-5 rounded-full bg-cyan-100 flex items-center justify-center">
+                <div className="w-2.5 h-2.5 rounded-full bg-cyan-300"></div>
+              </div>
+              <span className="text-gray-600">Asesoría personalizada</span>
             </div>
           </div>
 
-          <button className="mt-8 bg-cyan-400 text-white px-8 py-3 cursor-pointer rounded-full hover:bg-cyan-500 transition-colors">
-            Ver todos
+          <button className="mt-8 bg-cyan-400 text-white px-8 py-3 cursor-pointer rounded-full hover:bg-cyan-500 transition-colors"
+            onClick={() => {
+              const message = `Hola, quiero información sobre sus servicios`;
+              window.open(
+                `https://wa.me/573012839440?text=${encodeURIComponent(message)}`,
+                "_blank"
+              );
+            }}
+          >
+            Comprar un servicio
           </button>
         </div>
 
@@ -39,6 +59,13 @@ export const Servicios = () => {
             <div
               key={index}
               className="bg-white max-w-72 cursor-pointer rounded-2xl p-6 hover:shadow-xl transition-all duration-300 hover:scale-105"
+              onClick={() => {
+                const message = `Hola, quiero información sobre el servicio de ${service.title}`;
+                window.open(
+                  `https://wa.me/573012839440?text=${encodeURIComponent(message)}`,
+                  "_blank"
+                );
+              }}
             >
               <div className="mb-4">
                 <service.emoji className="w-8 h-8 text-cyan-400" />
